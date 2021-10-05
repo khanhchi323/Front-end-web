@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: heebo;
+}
+
+header {
+    margin: 40px 0 20px 150px;
+}
+
+.choice a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 60px;
+}
+
+.introduce {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 150px; 
+}
+
+.detail h1 {
+   margin: 30px 400px 20px 0;
+   width: 320px;
+   height: 80px;
+}
+.detail p {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.detail button {
+    background: #FF6464;
+    border: 2px solid #FF6464;
+    box-sizing: border-box;
+    padding: 12px 30px;
+}
+
+.introduce img {
+    width: 260px;
+    height: 260px;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+#posts {
+    background: #EDF7FA;
+    padding: 20px 150px ;
+}
+
+.line-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+} 
+.line-1 a {
+    text-decoration: none;
+    color: #00A8CC;
+}
+
+.content-1 {
+    display: flex;
+}
+.content-1 h2 {
+    margin-bottom: 10px;
+}
+.content-1 address {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.left {
+    background: #ffff;
+    width: 400px;
+    margin-right: 40px;
+    padding: 20px 40px ;
+}
+.right {
+    background: #ffff;
+    width: 400px;
+    padding: 20px 40px;
+}
+
+#work {
+    margin: 15px;
+    padding: 0 100px 0 150px;
+}
+
+.line-2 {
+    padding-bottom: 18px;
+}
+
+.first {
+    display: flex;
+    margin-bottom: 30px;
+}
+.second {
+    margin: 30px 0 ;
+    display: flex;
+}
+.third {
+    display: flex;
+    margin: 30px 0 ;
+}
+
+.content-2 {
+    display: block;
+    margin-left: 20px;
+}
+.content-2 button {
+    background: #142850;
+    margin: 10px 30px 20px 0;
+    padding: 1px 6px;
+    border: 1px solid #142850;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #EDF7FA;
+}
+.content-2 time {
+    color: #8695A4;
+    font-size:20px ;
+}
+.content-2 p {
+    padding-right: 250px;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px ;
+    padding: 60px ;
+}
+.logo img {
+    margin-bottom: 20px;
+    padding-left: 35px;
+}
+span {
+    padding-left: 40px;
+}
+
+@media screen and (min-width:114em) {
+    /* heading */
+    
+}
+
+
+
