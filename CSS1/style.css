@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: left;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+
+#content {
+    margin: 50px 140px 30px 80px;
+    padding: 12px 0 0 12px;
+}
+
+.intro {
+    margin-bottom: 15px;
+}
+
+.box-name input {
+    margin-bottom: 10px ;
+    padding: 8px 10px ;
+    border: 1px solid ;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.box-mail input {
+    display: block;
+    margin-bottom:10px ;
+    padding: 8px 195px 8px 10px ;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.choice-birthday div {
+    display: flex;
+}
+.choice-birthday p {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom:5px;
+}
+.choice-birthday select {
+    border: 1px solid ;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.choice-birthday span {
+    color: royalblue;
+    font-size: 13px;
+}
+
+.gender{
+    display: flex;
+    margin: 12px 0 12px 0;
+}
+.gender input {
+    margin: 10px 3px;
+}
+.gender p {
+    margin: 8px 15px 0 3px ;
+    font-weight:bold;
+    font-size: 15px;
+}
+
+.note {
+   display: inline;
+   font-size: 13px;
+}
+.note span {
+    color: royalblue;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 70px;
+    background:#00AA00;
+    color: white;
+    font-size: 18px;
+    border: 1px solid#00AA00;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
